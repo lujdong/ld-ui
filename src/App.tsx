@@ -1,9 +1,10 @@
 import React, { FC } from 'react'
+import { Button } from './components'
 
 const App:FC = () => {
   return (
     <div className="app">
-      hello
+      <Button></Button>
     </div>
   )
 }
