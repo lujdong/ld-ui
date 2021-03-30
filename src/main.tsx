@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Button } from './components'
+import './components/styles/index.less'
 
 ReactDOM.render(
   <React.StrictMode>
