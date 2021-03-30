@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import { Button } from './components'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Button>hello</Button>
   </React.StrictMode>,
   document.getElementById('root')
 )

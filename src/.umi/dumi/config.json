@@ -1,0 +1,40 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/",
+          "title": "ld-ui",
+          "meta": {
+            "order": null
+          }
+        },
+        {
+          "title": "Components/button",
+          "path": "/components/button",
+          "meta": {},
+          "children": [
+            {
+              "path": "/components/button/demo",
+              "title": "基础用法",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {},
+  "title": "ld-ui",
+  "mode": "doc",
+  "repository": {
+    "branch": "master"
+  },
+  "theme": {}
+}
