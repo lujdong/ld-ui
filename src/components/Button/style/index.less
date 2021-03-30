@@ -1,6 +1,38 @@
-button {
-  position: relative;
-  color: red;
-  font-size: 8px;
-  transition: all;
+@import '../../styles/index';
+
+@base-btn-border: @base-border-width @base-border-style @base-border-color;
+
+.ld-btn {
+  display: inline-block;
+  min-height: 32px;
+  margin: 0;
+  padding: @space-xs @space-sm;
+  color: @base-color-dark;
+  white-space: nowrap;
+  text-align: center;
+  background: @base-color-light;
+  border: @base-btn-border;
+  border-radius: @base-radius;
+  outline: 0;
+  cursor: pointer;
+  user-select: none;
+
+  &+ {
+    margin-left: @space-sm;
+  }
+
+  &-primary {
+    color: @base-color-light;
+    background-color: @base-color-primary;
+  }
+
+  &-danger {
+    color: @base-color-light;
+    background-color: @base-color-danger;
+  }
+
+  &-warning {
+    color: @base-color-light;
+    background-color: @base-color-warning;
+  }
 }
